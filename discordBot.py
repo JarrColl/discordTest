@@ -1,11 +1,11 @@
-#!/usr/bin/env python3.7
-
 # bot.py
 import os, discord, random
 from dotenv import load_dotenv
 from collections import defaultdict
 from threading import Timer
+from keepAlive import keepAlive
 
+keep_alive()
 load_dotenv()
 token = os.getenv('DISCORD_TOKEN')
 client = discord.Client()
