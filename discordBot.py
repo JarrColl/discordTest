@@ -1,3 +1,5 @@
+#!/usr/bin/env python3.7
+
 # bot.py
 import os, discord, random
 from dotenv import load_dotenv
