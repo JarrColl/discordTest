@@ -3,7 +3,7 @@ import os, discord, random
 from dotenv import load_dotenv
 from collections import defaultdict
 from threading import Timer
-from keepAlive import keepAlive
+from keepAlive import keep_alive
 
 keep_alive()
 load_dotenv()
